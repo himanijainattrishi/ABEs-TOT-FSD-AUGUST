@@ -1,0 +1,11 @@
+
+p:hover{
+    background-color: red;
+}
+p::after{
+    content: "thank you";
+    background-color: blue;
+}
+p::selection{
+    background-color: bisque;
+}
