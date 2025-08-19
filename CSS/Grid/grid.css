@@ -1,32 +1,38 @@
 .box{
     display: grid;
      border: 1px solid red;
-    height: 800px;
-    width: 500px;
+    height: 500px;
+    width: 700px;
     background-color: aqua;
     margin: 10px;
-}
+    grid-template-columns: repeat(4,1fr);
+   
+}   
 .box1{
 height: 150px;
-width: 150px;
+width: 100px;
 background-color: blue;
 border: 1px solid red;
+grid-column-start: 2;
+grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
 }
 .box2{
 height: 150px;
-width: 150px;
+width: 100px;
 background-color: blueviolet;
 border: 1px solid yellow;
 }
 .box3{
 height: 150px;
-width: 150px;
+width: 100px;
 background-color:purple;
 border: 1px solid magenta
 }
 .box4{
 height: 150px;
-width: 150px;
+width: 100px;
 background-color: green;
 border: 1px solid black;
 
