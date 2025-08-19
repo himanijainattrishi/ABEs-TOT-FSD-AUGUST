@@ -6,6 +6,9 @@
     background-color: aqua;
     margin: 10px;
     grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: 80px auto 80px;
+    column-gap: 3px;
+    row-gap: 10px; */
    
 }   
 .box1{
@@ -13,16 +16,44 @@ height: 150px;
 width: 100px;
 background-color: blue;
 border: 1px solid red;
-grid-column-start: 2;
+/* grid-column-start: 2;
 grid-column-end: 3;
    grid-row-start: 1;
-   grid-row-end: 2;
+   grid-row-end: 2; */
 }
 .box2{
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
 height: 150px;
-width: 100px;
+width: 150px;
 background-color: blueviolet;
 border: 1px solid yellow;
+}
+
+.box21{
+height: 50px;
+width: 50px;
+background-color: blueviolet;
+border: 1px solid black;
+
+}
+.box22{
+    height: 50px;
+width: 50px;
+background-color: blueviolet;
+border: 1px solid gray;
+}
+.box23{
+    height: 50px;
+width: 50px;
+background-color: blueviolet;
+border: 1px solid red;
+}
+.box24{
+     height: 50px;
+width: 50px;
+background-color: blueviolet;
+border: 1px solid red; 
 }
 .box3{
 height: 150px;
@@ -37,4 +68,16 @@ background-color: green;
 border: 1px solid black;
 
 
+}
+.box5{
+height: 150px;
+width: 100px;
+background-color: blueviolet;
+border: 1px solid yellow;
+}
+.box6{
+height: 150px;
+width: 100px;
+background-color: blueviolet;
+border: 1px solid yellow;
 }
