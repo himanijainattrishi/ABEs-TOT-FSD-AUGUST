@@ -21,6 +21,9 @@ name:['xuv','exter'],
     
 
 }
+console.log(car.name)
 for(i in car.engine){
-    console.log(car.engine[1])
+    console.log(car.engine[i])
 }
+car.name[0]='scorpio'
+console.log(car.name)
